@@ -100,7 +100,7 @@ function Splitter(){
 Splitter()
 gsap.to("#about h1 span",{
     color: "whitesmoke",
-    webkitTextStroke:".8px black",
+    // webkitTextStroke:".8px red",
     stagger : 0.2,
     scrollTrigger:{
         trigger: "#about h1",

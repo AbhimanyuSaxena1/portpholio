@@ -250,7 +250,10 @@ body{
     min-height: 100vh;
     width: 100%;
     /* background: linear-gradient(to left top,#0F0F0F,#0f0f0f,white); */
-    background-color: #0F0F0F;
+    /* background-color: #0F0F0F;
+     */
+    background: linear-gradient(to left top,#0F0F0F,#0f0f0f,white);
+
     /* display: flex; */
     /* justify-content: space-around; */
     padding: 4vw;
@@ -258,8 +261,8 @@ body{
 }
 #about h1{
     text-align: center;
-    font-size: 3vw;
-    line-height: 3.5vw;
+    font-size: 3.8vw;
+    line-height: 4.5vw;
     /* -webkit-text-stroke: 2px white; */
     color: black;
 
