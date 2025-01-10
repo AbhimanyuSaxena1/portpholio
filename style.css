@@ -1,0 +1,272 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* font-family: Gilroy; */
+    /* overflow-x: hidden; */
+    will-change: auto;
+}
+body{
+    overflow-x: hidden;
+}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: monument;
+    src: url(./fonts/MonumentExtended-Ultrabold.otf);
+    font-display: swap;
+    /* src: url(./fonts/MonumentExtended-Regular.otf) */
+    /* src: url(./fonts/PPMonumentExtended-Regular.otf); */
+    /* src: url(./fonts/PPMonumentExtended-Black.otf); */
+    /* src: url(./fonts/PPMonumentExtended-Light.otf) */
+}
+@font-face {
+    font-family: work sans;
+
+    /* src: url(./Gilroy-FREE/Gilroy-ExtraBold.otf); */
+    /* src: url(./Gilroy-FREE/Gilroy-Light.otf) */
+    src:url(./Work_Sans/WorkSans-VariableFont_wght.ttf);
+    font-display: swap;
+}
+@font-face {
+    font-family: gillroy;
+    src: url(./Gilroy-FREE/Gilroy-ExtraBold.otf);
+    src: url(./Gilroy-FREE/Gilroy-Light.otf);
+}
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+#container{
+    background-color: #0F0F0F;
+}
+#main
+{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 2vw;
+    width: 100%;
+    /* transition: all cubic-bezier(0.19, 1, 0.22, 1); */
+}
+#nav1{
+    width: 60%;
+    letter-spacing: -.13vw;
+}
+#nav2{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    width: 30%;
+}
+#nav h2{
+    color : white;
+    font-family: Work sans;
+    font-weight: 300;
+    font-size: 1.3vw;
+}
+#nav2>h2>i{
+    display: none;
+    /* x:-2vw */
+}
+
+
+#nav1 h2:hover{
+    color: orange;
+    cursor: pointer;
+}
+#nav2 h2:nth-child(1):hover{
+    color: rgb(13, 130, 176);
+    cursor: pointer;
+ /* font-size: 1.5vw; */
+    /* text-decoration: underline; */
+}
+#nav2 h2:nth-child(1):hover i{
+    color: rgb(206, 48, 249);
+    display: inline;
+    cursor: pointer;
+}
+
+#nav2 h2:nth-child(2):hover{
+    /* color: rgb(81, 235, 117); */
+    color: yellow;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+#nav2 h2:nth-child(3):hover{
+    color: rgb(13, 130, 176);
+    /* color: aqua; */
+    cursor: pointer;
+    /* text-decoration: underline; */
+
+}
+#center{
+    height: 90%;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+}
+#center img{
+    border-radius: 1.5vw;
+    /* background-color: red; */
+    height: 26vw;
+    width: 19vw;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    z-index: 1;
+}
+#img1{
+    rotate: 15deg;
+}
+#img2{
+    rotate: 10deg;
+}
+#img3{
+    rotate: 5deg;
+}
+#img4{
+    rotate: -1deg;
+}
+#text{
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    font-size: 7vw;
+    color: white;
+    width: 100%;
+    line-height: 10vw;
+    font-family: Work sans;
+}
+#text h1{
+    
+    font-weight: 300;
+    /* margin-bottom: 10px; */
+    letter-spacing: -0.4vw;
+}
+#text h1:nth-child(1){
+    margin-left: 5vw;
+    font-size: 11vw;
+    /* background-color: red; */
+    letter-spacing: -.7vw;
+
+}
+#text h1 span{
+    color: yellow;
+}
+
+#text h1:nth-child(2){
+    margin-left: 30%;
+    width: 40%;
+    font-size: 12vw;
+    letter-spacing: -.7vw;
+    color: aqua ;
+    /* background-color: red; */
+}
+#text h1:nth-child(3){
+    margin-left: 45%;
+    /* margin-right: 5; */
+    letter-spacing: -.7vw;
+    width: 40%;
+    font-size: 10vw;
+    /* background-color: red; */
+}
+
+#bottom{
+    height: 100vh;
+    width: 100%;
+    /* overflow-x: hidden; */
+    background-color: #0F0F0F;
+}
+#bottom #page1{
+    height: 100%;
+    width: 100%;
+    /* width: 100%; */
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+}
+#bottom #page1 h1{
+    font-size: 40vw;
+    font-family: monument;
+    -webkit-text-stroke: 3px white; /* Outline color and width */
+    font-weight: 500;
+    letter-spacing: -1vw;
+    white-space: nowrap;
+    color: #0F0F0F;
+}
+#D{
+    -webkit-text-stroke: 3px aqua;
+}
+#R{
+    -webkit-text-stroke: 3px yellow;
+}
+#V{
+    -webkit-text-stroke: 3px orangered;
+}
+#W{
+    -webkit-text-stroke: 3px orange;
+}
+#page3{
+    /* background-color: linear-gradient(#0F0F0F);
+     */
+    background: linear-gradient(to left bottom,#0F0F0F,#0f0f0f,white);
+}
+#images{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 4vw ;
+
+    
+}
+.imagediv{
+    overflow: hidden;
+    /* background-color: red; */
+    height: 100%;
+    width: 30%;
+    /* scale: 0; */
+    
+    /* border-radius: 10%; */
+    /* padding: 2vw 2vw; */
+}
+#images img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* border-radius: 2%; */
+}
+#about{
+    min-height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(to left top,#0F0F0F,#0f0f0f,white); */
+    background-color: #0F0F0F;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    padding: 4vw;
+
+}
+#about h1{
+    text-align: center;
+    font-size: 3vw;
+    line-height: 3.5vw;
+    /* -webkit-text-stroke: 2px white; */
+    color: black;
+
+    font-family: monument;
+}
+#page4{
+    height: 100vh;
+    width: 100%;
+    background-color: #0f0f0f;
+}
